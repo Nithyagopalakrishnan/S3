@@ -1,0 +1,13 @@
+import numpy as np
+a=int(input("a="))
+b=int(input("b="))
+c=int(input("c="))
+d=int(input("d="))
+e=int(input("e="))
+f=int(input("f="))
+g=int(input("g="))
+h=int(input("h="))
+i=int(input("i="))
+n=np.array([[a,b,c],[d,e,f],[g,h,i]])
+print(n)
+print(np.linalg.inv(n))
